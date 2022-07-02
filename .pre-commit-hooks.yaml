@@ -1,0 +1,9 @@
+- id: commitizen-cli
+  name: commitizen guide
+  description: "Guide the user in creating a conventional commit"
+  entry: cz commit
+  args: []
+  stages: [prepare-commit-msg]
+  language: python
+  language_version: python3
+  minimum_pre_commit_version: "1.4.3"
